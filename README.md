@@ -2,7 +2,7 @@
 
 **《并发数据结构与多核编程》大作业**
 
-**姓名：林嘉玮，学号：202028001027016，班级：9305**
+**姓名：\*，学号：\*，班级：\***
 
 [TOC]
 
@@ -96,9 +96,7 @@ static int stationnum = 16;
 64      767.69ns        42156.11ns      4488.87ns       2730790
 ```
 
-| 延时| 吞吐率|
-| --- | --- |
-| ![](./.img/1.png) | ![](./.img/2.png) |
+ ![](./.img/1.png)  ![](./.img/2.png) 
 
 ##### 服务器测试记录
 
@@ -122,9 +120,7 @@ static int stationnum = 16;
 128     313.54ns        732715.42ns     5979.43ns       194074[
 ```
 
-| 延时| 吞吐率|
-| --- | --- |
-| ![](./.img/3.png) | ![](./.img/4.png) |
+![](./.img/3.png) ![](./.img/4.png) 
 
 ##### 参考同学的性能：
 
@@ -208,10 +204,6 @@ core id 	: 8
 cpu cores	: 16
 ```
 
-
-
-<img src="./.img/20201215_02.png" alt="20201215_02" style="zoom:50%;" />
-
 #### 2. 测试方法
 
 ​	本机测试直接在 VScode 编辑器运行。也可以使用Windows 10命令行。步骤包括：编译、生成记录、运行测试脚本、运行线性化验证脚本。
@@ -254,7 +246,7 @@ java -cp . ticketingsystem/Test --threadnum 64
 ​	服务器测试需要在PSFTP传输文件：
 
 ```sh
-# SSH登入124.16.138.31。用户名：user019，初始密码：user019xyz
+# SSH登入*。用户名：user019，初始密码：*
 # 使用Putty PSFTP工具传输代码文件：
 open MCP
 user019
@@ -280,4 +272,3 @@ java -cp . ticketingsystem/Test --threadnum 128 --routenum 100 --coachnum 50 --s
 
 ```
 
-# github-upload
